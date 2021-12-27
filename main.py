@@ -1,4 +1,4 @@
-import logging, random, unittest
+import logging, random
 
 class Guess:
   def check_guess(number, player_guess):
