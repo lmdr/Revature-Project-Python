@@ -35,7 +35,7 @@ class Guess:
       if count_guesses == 1:
         print(f"It took {count_guesses} guess to guess {number}.")
       else:
-        print(f"It took {count_guesses} guess(es) to guess {number}.")
+        print(f"It took {count_guesses} guesses to guess {number}.")
 
 if __name__ == '__main__':
   Guess.main()
