@@ -9,19 +9,19 @@ class MyTestCase(unittest.TestCase):
     def test_guess_correct(self):
         """Test if guessed number equals generated number"""
         num = 10
-        result = Guess.check_guess(num, 10)
+        result = Guess.check_guess(self, num, 10)
         self.assertTrue(result)
 
     def test_guess_incorrect_less(self):
         """Test if guessed number is less than generated number"""
         num = 25
-        result = Guess.check_guess(num, 20)
+        result = Guess.check_guess(self, num, 20)
         self.assertFalse(result)
 
     def test_guess_incorrect_greater(self):
         """Test if guessed number is greater than generated number"""
         num = 25
-        result = Guess.check_guess(num, 100)
+        result = Guess.check_guess(self, num, 100)
         self.assertFalse(result)
 
 
