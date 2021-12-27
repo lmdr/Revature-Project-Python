@@ -17,6 +17,7 @@ This project makes use of the following libraries:
 
 - logging
 - random
+- unittest
 
 ### How to Run
 
