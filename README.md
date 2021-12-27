@@ -15,6 +15,7 @@ VS Code | 1.63.2
 
 This project makes use of the following libraries:
 
+- logging
 - random
 
 ### How to Run
